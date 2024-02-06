@@ -28,8 +28,6 @@ public class PlayerMovement : MonoBehaviour
         } 
     }
 
-   
-
     private void DeathSequence() {
         enabled = false;
         Invoke("ReloadSceneAfterDelay", 3f);
